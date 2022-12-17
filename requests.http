@@ -1,0 +1,30 @@
+###
+POST   http://localhost:9000/api/users HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Angel Mendez",
+    "age": "35",
+    "email": "angelme@gmail.com"
+
+}
+
+###
+GET http://localhost:9000/api/users HTTP/1.1
+
+###
+GET http://localhost:9000/api/users/639d0c0f37be4164c5f07204 HTTP/1.1
+
+###
+PUT    http://localhost:9000/api/users HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Angel Mendez",
+    "age": "35",
+    "email": "angelme@gmail.com"
+
+}
+
+###
+DELETE  http://localhost:9000/api/users/639d05f825c7034704aded1b HTTP/1.1
